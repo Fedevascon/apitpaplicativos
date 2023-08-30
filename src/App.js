@@ -1,32 +1,12 @@
 import logo from './logo.svg';
 import './App.css';
 import React from 'react';
-import ButtonComponent from './components/buttonComponent';
-import './components/buttonComponent';
+
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Introduccion a react!
-        </p>
-        <p>
-          Grupo: Santiago Servera//
-                 Martin Franco//
-                 Federico Vasconcello//
-        </p>
-        <ButtonComponent />
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          
-        </a>
-      </header>
+      
     </div>
   );
 }
